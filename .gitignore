@@ -1,0 +1,12 @@
+# Environment variables
+.env
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# PHP files
+error_log

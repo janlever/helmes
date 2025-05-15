@@ -1,0 +1,22 @@
+.form-control:focus, .form-select:focus, .form-check-input:focus {
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+#sectors option[value="1"],
+#sectors option[value="2"],
+#sectors option[value="3"] {
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s;
+}
+
+body {
+    background-color: #87bcee;
+    background-image: linear-gradient(to bottom, #799bbb 0%, #dee6fd 100%);
+    min-height: 100vh;
+}
